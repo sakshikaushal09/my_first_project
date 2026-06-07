@@ -21,8 +21,8 @@ jobs:
 
       - name: Commit and Push
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config user.name "sakshikaushal09"
+          git config user.email "2k24.csaiml1c.2412593@gmail.com"
           git add activity.txt
           git commit -m "Daily auto commit" || exit 0
           git push
